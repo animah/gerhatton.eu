@@ -7,9 +7,4 @@
  * 'Variables' is where design tokens are defined.
  */
 
-:root {
-  --font-family: system-ui, Helvetica, Arial, sans-serif;
-  --font-weight: 400;
-  --font-size: 1em;
-  --line-height: 1.5;
-}
+:root {}
