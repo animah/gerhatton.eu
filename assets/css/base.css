@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/**
+ * 'Base' is where element default styles are defined.
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+svg,
+img,
+picture,
+audio,
+video,
+object {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:visited {
+  cursor: pointer;
+}
