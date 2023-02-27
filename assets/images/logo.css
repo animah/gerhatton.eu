@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#logo .singularity {
+  stroke: #332532;
+}
+
+#logo .boundary {
+  stroke: #332532;
+}
+
+#logo .square {
+  fill: #332532;
+}
+
+#logo .hatton,
+#logo .eu {
+  fill: #332532;
+}
