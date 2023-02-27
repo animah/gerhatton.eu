@@ -10,7 +10,7 @@
  * - Libraries
  * - Variables
  * - Base
- * - <Category>
+ * - Pages
  */
 
 
@@ -41,7 +41,8 @@
 @import url("base.css");
 
 
-/* <Category>
+/* Pages
    ========================================================================== */
 
-/* <File Name>: <File Content Description> */
+/* Pages: various pages */
+@import url("pages.css");
