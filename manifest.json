@@ -1,6 +1,6 @@
 {
-  "name": "Hello, World!",
-  "short_name": "Hello, World!",
+  "name": "Ger Hatton",
+  "short_name": "Ger Hatton",
   "icons": [
     {
       "type": "image/png",
@@ -14,5 +14,5 @@
     }
   ],
   "display": "standalone",
-  "theme_color": "#ffffff"
+  "theme_color": "#f4f0f4"
 }
