@@ -10,7 +10,8 @@
  * - Libraries
  * - Variables
  * - Base
- * - <Category>
+ * - Pages
+ * - Utilities
  */
 
 
@@ -41,7 +42,15 @@
 @import url("base.css");
 
 
-/* <Category>
+/* Pages
    ========================================================================== */
 
-/* <File Name>: <File Content Description> */
+/* Pages: various pages */
+@import url("pages.css");
+
+
+/* Utilities
+   ========================================================================== */
+
+/* Utilities: various utilities */
+@import url("utilities.css");
