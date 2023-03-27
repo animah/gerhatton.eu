@@ -7,8 +7,15 @@
  * 'Base' is where element default styles are defined.
  */
 
+
+/* Document
+   ========================================================================== */
+
 html {
   box-sizing: border-box;
+  background-color: var(--blackcurrant-50);
+  background-image: url("../images/noise.png");
+  background-repeat: repeat;
 }
 
 *,
@@ -17,12 +24,50 @@ html {
   box-sizing: inherit;
 }
 
+
+/* Typography
+   ========================================================================== */
+
 body {
   font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-size: var(--font-size);
   line-height: var(--line-height);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+/* Type Scale: minor third -- 5/6 (1.2) */
+h1 {
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+
+/* Embedded Content
+   ========================================================================== */
 
 svg,
 img,
@@ -33,6 +78,10 @@ object {
   max-width: 100%;
   height: auto;
 }
+
+
+/* Accessibility & User Interaction
+   ========================================================================== */
 
 a,
 a:visited {
