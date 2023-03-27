@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+/**
+ * 'Utilities' is where various utilities are defined.
+ */
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
