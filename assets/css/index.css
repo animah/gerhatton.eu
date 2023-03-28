@@ -11,6 +11,7 @@
  * - Variables
  * - Base
  * - Pages
+ * - Utilities
  */
 
 
@@ -46,3 +47,10 @@
 
 /* Pages: various pages */
 @import url("pages.css");
+
+
+/* Utilities
+   ========================================================================== */
+
+/* Utilities: various utilities */
+@import url("utilities.css");
